@@ -1,0 +1,25 @@
+.coinPage {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coinContainer {
+  width: 400px;
+  padding: 4rem;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #2fffe5;
+}
+.coinImage,
+.coinName,
+.coinTicker {
+  margin-bottom: 1rem;
+}
+.coinCurrent {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
